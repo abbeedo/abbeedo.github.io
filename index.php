@@ -16,7 +16,8 @@
 
 
 
-
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'OS 12' ) !== false) {
+    $version = "اصدار النظام 12";
 if (strpos($_SERVER['HTTP_USER_AGENT'], 'OS 11' ) !== false) {
     $version = "اصدار النظام 11";
 }elseif (strpos($_SERVER['HTTP_USER_AGENT'], 'OS 10' ) !== false) {
